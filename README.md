@@ -1,16 +1,111 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Todo Application built with **React.js** to help users organize and manage daily tasks efficiently. The application provides essential task management features with a clean user interface and persistent data storage using Local Storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Search tasks by title
+- Mark tasks as completed
+- Separate Pending and Completed task sections
+- Task statistics dashboard
+- Data persistence using Local Storage
+- Form validation
+- Responsive and modern user interface
+- React Router for page navigation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- React Router DOM
+- JavaScript (ES6+)
+- HTML5
+- Tailwind CSS
+- Local Storage API
+
+---
+
+## Project Structure
+
+```
+## Project Structure
+
+```
+src/
+│
+├── assets/
+├── components/
+├── pages/
+│   ├── completed.jsx
+│   ├── dashboard.jsx
+│   ├── editTask.jsx
+│   ├── pending.jsx
+│   └── statistics.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+public/
+
+package.json
+vite.config.js
+index.html
+README.md
+```
+
+---
+
+## What I Learned
+
+During this project I practiced:
+
+- React Components
+- Props
+- useState
+- useEffect
+- React Router
+- CRUD Operations
+- Local Storage
+- Conditional Rendering
+- Form Validation
+- Array Methods (`map`, `filter`, `find`)
+- State Management
+- Component Reusability
+
+---
+
+## Installation
+
+```bash
+git clone <repository-url>
+
+cd todo-app
+
+npm install
+
+npm run dev
+```
+
+---
+
+## Project Status
+
+**Completed**
+
+The application is fully functional and demonstrates React fundamentals, component-based architecture, CRUD operations, routing, and client-side data persistence using Local Storage.
+
+---
+
+## Author
+
+**Bint-e-Afzal**
+
+Learning the MERN Stack by building real-world projects and continuously improving development skills.
